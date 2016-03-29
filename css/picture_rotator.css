@@ -1,0 +1,107 @@
+/*
+ * path: !!! don't know yet !!!
+ * ns:   !!! don't know yet !!!
+ *
+ */
+.picrot-wrapper
+{
+    width:443px;
+    /*background-color: #FBFBFD*/;
+    color: #414042;
+    border-bottom-color: #F7F7F7;
+    border-bottom-width: 1px;
+    /*margin-bottom: 30px;*/
+}
+
+.picrot-reviewNumbers
+{
+    float:left; 
+    padding-left:4px;
+    font-size: 11px;
+    font-weight:normal;
+    font-style:italic;
+}
+
+.picrot-memberwords
+{
+    float:left; 
+    padding-right:2px;
+}
+
+.picrot-leftsections
+{
+    margin: 7px 0 0 0;
+}
+
+.picrot-tspname
+{
+    font-weight:bold;
+    font-size:16px;
+    text-decoration: none; 
+    cursor : pointer;
+}
+
+.picrot-bluetext
+{
+    color:#1a63a3 ;    
+}
+
+.picrot-reviewstext
+{
+    color:Blue;
+    font-style:italic;
+    
+}
+
+.picrot-linearspace
+{
+    padding-left:5px;
+}
+
+.picrot-badge
+{
+    text-align:right;
+    padding-top: 10px;
+}
+
+.home-adrotator-dots.picrot-dots
+{
+    position:relative;
+    top:30px;
+    left: 28px;
+}
+
+.picrot-containWidth
+{
+    width:443px;
+}
+
+.picrot-bigcontainer
+{
+    background-color: #FBFBFD;
+    /*border-bottom-color: #F7F7F7;*/
+    border-color: #D9D9DA;
+    border-width: 1px;
+    border-style:solid;
+}
+
+.picrot-wrapper-rating
+{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.picrot-float
+{
+    float:left;
+}
+
+.picrot-bigTopPad
+{
+    padding-top:13px;
+}
+
+.picrot-smallTopPad
+{
+    padding-top:5px;
+}

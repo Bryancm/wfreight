@@ -1,0 +1,285 @@
+@media screen and (max-width: 767px) {
+  #ft {
+	margin-top: 0px !important;
+	padding-top: 0px !important;
+	min-height: auto;
+  }
+}
+
+
+.footer-main {
+  padding: 20px 0 30px;
+  background-color: #FCFCFC;
+  border-top: 1px solid #e2e2e2;
+  z-index: 1001;
+}
+  .ie7 .footer-main {
+  	height: 261px;
+  }
+.footer-main-column {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 .5em;
+}
+.footer-partner-seals {
+	width: 45%;
+}
+@media screen and (max-width: 890px) {
+  .footer-partner-seals {
+      display: none; }
+}
+@media screen and (max-width: 767px) {
+  .footer-main {
+    display: none; }
+}
+.footer-simple {
+  background: url('/public/images/elements/footer/footer-mini-bg.png') repeat;
+  border-top: 2px solid #D1D1D1;
+  z-index: 1001;
+  margin-bottom: -15px;
+  padding: 10px 0;
+  min-height: 78px;
+}
+.footer-link {
+  color: #888;
+  line-height: 1.75em;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  z-index: 1001;
+}
+	.footer-link:hover {
+		color: #666;
+	} 
+.footer-content {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+  @media screen and (max-width: 960px) {
+	.footer-simple {
+		min-height: 82px;
+	}
+  }
+.footer-sitelink {
+	padding-left: 25px;
+	position: relative;
+}
+.footer-menu-sitelink {
+	display: block; 
+	left: 0;
+	position: absolute;
+	top: 1px;
+}
+.foot-sitelink-img {
+  background: transparent url('/public/images/countryflags/flag_sprite.png') no-repeat right -133px;
+}
+  .foot-sitelink-img-1 {
+  	background-position: right -95px;
+  }
+  .foot-sitelink-img-2 {
+  	background-position: right -209px;
+  }
+  .foot-sitelink-img-3 {
+  	background-position: right -38px;
+  }
+  .foot-sitelink-img-4 {
+  	background-position: right -171px;
+  }
+  .foot-sitelink-img-6 {
+  	background-position: right -114px;
+  }
+  .foot-sitelink-img-5 {
+  	background-position: right 0;
+  }
+  .foot-sitelink-img-8 {
+  	background-position: right -190px;
+  }
+  .foot-sitelink-img-9 {
+  	background-position: right -152px;
+  }
+  .foot-sitelink-img-10 {
+  	background-position: right -57px;
+  }
+  .foot-sitelink-img-11 {
+  	background-position: right -19px;
+  }
+  .foot-sitelink-img-14 {
+  	background-position: right -228px;
+  }
+  .foot-sitelink-img-19 {
+  	background-position: right -76px;
+  }
+.footer-head {
+	padding-bottom: 5px;
+	font-weight: bold;
+	color: #A6A6A6;
+}
+
+.footer-logo-sm {
+	height: 36px;
+	width: 36px;
+}
+.footer-logo-md {
+	height: 36px;
+	width: 111px;
+}
+.footer-logo {
+	background: transparent url('/public/images/elements/footer/footer-badges.png') no-repeat left top;
+	opacity: .75;
+	margin-right: 10px;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+	.footer-logo-fb:hover {
+		opacity: 1;
+	}
+	.ie7 .ie8 .footer-logo {
+	opacity: 1 !important;
+	}
+	.footer-logo-twitter {
+	  	background-position:-36px top;
+	}
+		.footer-logo-twitter:hover {
+			opacity: 1;
+		}
+	.footer-logo-youtube {
+		background-position: -72px top;
+	}
+		.footer-logo-youtube:hover {
+			opacity: 1;
+		}
+	.footer-logo-linkedin {
+		background-position: -108px top;
+	}
+		.footer-logo-linkedin:hover {
+			opacity: 1;
+		}
+	.footer-logo-apple {
+		background-position: -144px top;
+	}
+		.footer-logo-apple:hover {
+			opacity: 1;
+		}
+	.footer-logo-google {
+		background-position: -255px top;
+	}
+		.footer-logo-google:hover {
+			opacity: 1;
+		}
+	.footer-logo-ebay {
+		height: 52px;
+		width: 67px;
+		background-position: -366px top;
+		opacity: 1;
+	}
+	.footer-logo-truste {
+		height: 36px;
+		width: 119px;
+		background-position: -433px top;
+		opacity: 1;
+	}
+	.footer-logo-terrapass {
+		height: 52px;
+		width: 70px;
+		background-position: -552px top;
+		opacity: 1;
+	}
+	.footer-logo-bbb {
+		height: 52px;
+		width: 32px;
+		background-position: -622px top;
+		opacity: 1;
+	}
+		.footer-logo-dnb {
+		height: 64px;
+		width: 64px;
+		background-position: -694px top;
+		opacity: 1;
+	}
+	.footer-social-and-legal-links-container {
+		width: 55%; }
+@media screen and (max-width: 890px) {
+	.footer-social-and-legal-links-container {
+		width: 100%; }
+	
+	.footer-social-links {
+		display:none;
+		padding: 2% 2% 0 2%;
+		width: 96%; }
+	.footer-social-media-links {
+		float:left;}	
+	.footer-social-links a {
+		/*clear: both;
+		float: left;
+		text-align: center;*/}
+	.footer-social-appstore-links {
+		display:block;
+		clear:both;
+		padding-left:0;}
+}
+.footer-social-appstore-links {
+		padding-left: 20px; }
+
+.footer-legal {
+	color: #7D7D7D;
+	font-size: 11px;
+	width: 500px; }
+.wg-cobrand .footer-legal {
+	width: auto; }
+  @media screen and (max-width: 890px) {
+	.footer-legal { 
+		padding: 2% 2% 0 2%; 
+		width:96%;
+	}
+	.footer-legal-text,
+	.footer-legal-uship-links {
+		*zoom:1;  /* triggers hasLayout */
+		clear: both;
+		float:left;
+		width:96%;
+		text-align: center;
+	}
+  }  
+.footer-legal-line {
+	padding-right: 4px;
+	border-right: 1px solid #7D7D7D;
+	white-space: nowrap;
+}
+.footer-legal-link {
+	font-weight: bold;
+	padding-left: 4px;
+}
+/* styles needed for ie 8 and javascript logo*/
+#Foot_danb {
+	height: 65px;
+	width: 65px;
+	overflow: hidden;
+}
+#Foot_danb div:first-child {
+    margin: 0 !important;
+    left: 0 !important;
+    padding: 0 !important;
+    border: 0 none !important;
+    vertical-align: baseline !important;
+    color: transparent !important;
+}
+
+#Foot_danb span:first-child {
+    color: transparent !important;
+} 
+
+#Foot_danb h1 {
+    color: black !important;
+    cursor: pointer !important;
+}
+
+#Foot_danb a{
+    color: transparent !important;
+}

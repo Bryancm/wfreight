@@ -1,0 +1,74 @@
+.tabContent.foundation-web .tabContent-title {
+  display: none;
+  margin: 0 auto;
+  padding: 5px;
+  max-width: 232px;
+  text-align: center;
+  background: none;
+  color: #414042;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid #dbdbdb;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 5px 5px 0 0;
+  background: transparent url("http://s.ushipcdn.com/public/images/elements/tabs/tab_selected_rounded_tabs_white.png") repeat-x; }
+  @media only screen and (max-width: 990px) {
+    .tabContent.foundation-web .tabContent-title {
+      display: block; } }
+
+.tabContent.foundation-web .tabContent-body {
+  padding-top: 15px; }
+  @media only screen and (max-width: 990px) {
+    .tabContent.foundation-web .tabContent-body {
+      border-top: 1px solid #dbdbdb; } }
+
+.tabContent.foundation-web .tabContent-body-list {
+  margin-left: 0; }
+
+@media only screen and (max-width: 767px) {
+  .tabContent.foundation-web .tabContent-body-list li {
+    text-align: center; } }
+
+.tabContent.foundation-web .tabContent-body-list a {
+  font-size: 12px;
+  color: #404040; }
+  .tabContent.foundation-web .tabContent-body-list a:hover {
+    text-decoration: underline; }
+
+/*** ROUNDED-TABS ***/
+.rounded-tabs-tab {
+  background: transparent url("http://www.uship.com/public/images/elements/tabs/tab_selected_rounded_tabs_white.png") repeat-x;
+  border: 1px solid #DBDBDB;
+  border-top: 0;
+  color: #666666;
+  cursor: pointer;
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  height: 33px;
+  line-height: 33px;
+  margin: 0 4px;
+  text-align: center;
+  width: 232px;
+  -moz-border-radius: 5px 5px 0 0;
+  /* Top left curve */
+  -khtml-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  /* Top right curve */
+  -khtml-border-top-right-radius: 5px;
+  border-top-right-radius: 5px; }
+
+.rounded-tabs-inner .tab-selected {
+  background: transparent url("http://www.uship.com/public/images/elements/tabs/tab_selected_rounded_tabs_white.png") repeat-x;
+  border-bottom: 0;
+  position: relative;
+  color: #414042;
+  height: 34px;
+  *margin-bottom: -1px; }
+
+.rounded-tabs-tab-first {
+  margin-left: 0; }
+
+.rounded-tabs-tab-last {
+  margin-right: 0; }

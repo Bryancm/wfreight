@@ -1,0 +1,235 @@
+.foundation-web.main-select select {
+  border-radius: 10px;
+  background-color: #FFF;
+  padding-left: 15px;
+  background-position: 98% center; }
+
+.foundation-web.main-select select:focus {
+  border-radius: 10px; }
+
+.foundation-web.main-select hr {
+  margin-bottom: 0;
+  max-width: 800px; }
+
+.foundation-web.main-select .checkbox-list .checked {
+  color: #404040; }
+
+.foundation-web.main-select .get-quotes {
+  padding-top: 1em;
+  text-align: right;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  border-top: none; }
+
+.foundation-web.main-select .get-quotes .button.large {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "AlternateGothic", "SourceSans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  width: 285px;
+  height: 66px;
+  transition: background-color 300ms ease-out;
+  box-shadow: none;
+  border: none;
+  line-height: 38px; }
+
+.foundation-web.main-select .get-quotes .button.large:hover {
+  background-color: #caae00; }
+
+.foundation-web.main-select .checkbox-list .checked .indicator {
+  background-color: #FFF;
+  border: solid 1px #CCC; }
+
+.foundation-web.main-select .checkbox.checked .indicator:before {
+  color: #158380;
+  margin-top: 2px;
+  margin-left: 2px; }
+
+.foundation-web.main-select .checkbox-list .checkbox .indicator {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  box-shadow: none; }
+
+.foundation-web.main-select .checkbox-list {
+  margin-top: 10px;
+  margin-bottom: 15px; }
+
+.foundation-web.main-select .stepone-category-select::after {
+  border-bottom: solid 1px #DDDDDD; }
+
+.foundation-web.main-select .clt-moto-row {
+  padding-top: 35px;
+  margin-bottom: -10px; }
+
+.foundation-web.main-select .clt-moto-titles {
+  margin-bottom: 10px;
+  margin-top: -10px; }
+
+.foundation-web.main-select .row .location-row {
+  padding-top: 30px;
+  padding-bottom: 10px; }
+
+.foundation-web.main-select .button.large {
+  min-width: 230px; }
+
+.foundation-web.main-select .easy-relist {
+  margin-top: -10px;
+  margin-bottom: -25px; }
+
+.foundation-web.main-select .shipment-items-section {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  border-bottom: none; }
+
+.foundation-web.main-select .add-item {
+  margin-top: 20px;
+  margin-bottom: -20px; }
+
+.foundation-web.main-select .stepone-locations {
+  margin-top: 25px;
+  margin-bottom: 10px; }
+
+.foundation-web.main-select div.button-group {
+  height: 50px; }
+
+.foundation-web.main-select .freight-item {
+  padding-top: 20px;
+  border-bottom: none;
+  margin-bottom: -10px; }
+
+.foundation-web.main-select .twitter-typeahead input[type="search"] {
+  border-radius: 10px;
+  padding-right: 0px; }
+
+.foundation-web.main-select .steponeform input {
+  text-transform: capitalize;
+  border-radius: 10px;
+  padding: 21px; }
+
+.foundation-web.main-select .twitter-typeahead:before {
+  margin: 0.5em 0 0 0.7em; }
+
+.foundation-web.main-select input[type="text"], .foundation-web.main-select input[type="search"] {
+  box-shadow: none; }
+
+.foundation-web.main-select .modalpanel {
+  padding-right: 20px; }
+
+.foundation-web.main-select .main-title {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "SourceSans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  padding: 5px; }
+
+.foundation-web.main-select .modal-top-bar {
+  padding: 10px;
+  display: inline-block;
+  max-height: 52px; }
+
+.foundation-web.main-select .close-reveal-modal {
+  padding: 0px; }
+
+.foundation-web.main-select .icon-close {
+  margin-top: -6px;
+  margin-right: -20px; }
+
+.foundation-web.main-select h3.panel-title {
+  font-size: 18px; }
+
+.foundation-web.main-select .small-12.columns.previous-shipment-summary {
+  font-size: 14px; }
+
+.foundation-web.main-select small.error, .foundation-web.main-select small.error.gp-error {
+  padding: 5px;
+  font-size: 14px;
+  font-family: "SourceSans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+
+form .foundation-web.main-select .row .row.collapse input {
+  border-radius: 10px;
+  padding: 5px;
+  padding-left: 15px; }
+
+form.custom .foundation-web.main-select .custom.dropdown .current {
+  background-color: #FFF;
+  box-shadow: none;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  color: #333333; }
+
+form.custom .foundation-web.main-select .custom.dropdown .current:before {
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #999;
+  float: right;
+  margin-top: 20px;
+  content: ''; }
+
+form.custom .foundation-web.main-select .custom.dropdown .current.hover:before {
+  border-top: 7px solid #333; }
+
+form.custom .foundation-web.main-select .custom.dropdown .current.hover {
+  box-shadow: none;
+  border-radius: 10px; }
+
+form.custom .foundation-web.main-select .location-type-modal {
+  margin-left: 40px;
+  padding-left: 10px; }
+
+.freight-class-row {
+  margin-top: -15px;
+  /* hiding the "Do you know your freight class" question: http://jira.uship.com/browse/KOTH-3077*/
+  display: none; }
+
+.foundation-web.steponeform {
+  margin-top: 0; }
+
+@media only screen and (min-width: 767px) {
+  .foundation-web.main-select.steponeform {
+    border-radius: 2px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid #E5E5E5;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25); }
+  .commodity-selection-form .main-select .steponeform {
+    border: 1px solid #E5E5E5;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25); }
+  .foundation-web.main-select.get-quotes .button.large {
+    width: 100%; } }
+
+@media only screen and (max-width: 767px) {
+  .foundation-web .checkbox-list.basic-inline .checkbox {
+    display: block; }
+  .foundation-web .checkbox-list.basic-inline-custom .checkbox {
+    display: inline-block; }
+  .foundation-web.main-select.steponeform {
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25); } }
+
+@media only screen and (min-device-width: 767px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .foundation-web.main-select.steponeform {
+    padding-left: 0px;
+    padding-right: 0px; } }
+
+.ie8 .steponeform {
+  min-width: 700px;
+  background: #EEEEEE;
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.25); }
+
+.ie8 .commodity-selection-slogan {
+  font-size: 35px; }
+
+.ie8 .main-select .get-quotes .button.large {
+  font-size: 22px; }
+
+.ie9 .foundation-web select {
+  background-position-x: 100%;
+  background-image: none; }
+
+@-moz-document url-prefix() {
+  .foundation-web select {
+    background-position-x: 100%;
+    background-image: none; } }

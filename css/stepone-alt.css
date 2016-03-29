@@ -1,0 +1,74 @@
+.ie8 .alt {
+  background: transparent;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#90000000,endColorstr=#90000000);
+  zoom: 1; }
+  .ie8 .alt .stepone-ltl, .ie8 .alt .freight-items .freight-item, .ie8 .alt .get-quotes, .ie8 .alt .stepone-category-select, .ie8 .alt .shipment-items-section {
+    border-color: #5B5B5B; }
+
+body .foundation-web.alt {
+  color: #fff; }
+
+.foundation-web.alt {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none; }
+  .foundation-web.alt .freight-item .remove-freight-item {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 1em; }
+  .foundation-web.alt .ie8 .freight-item .remove-freight-item {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#50FFFFFF,endColorstr=#50FFFFFF);
+    background: transparent;
+    zoom: 1; }
+  .foundation-web.alt .freight-item .remove-freight-item:hover {
+    color: #FFF;
+    cursor: pointer; }
+  .foundation-web.alt .stepone-location:first-child {
+    border: none; }
+  .foundation-web.alt .modal-content a,
+  .foundation-web.alt .modal-content a:hover {
+    color: #1a63a3; }
+  .foundation-web.alt label, .foundation-web.alt h6, .foundation-web.alt a, .foundation-web.alt .boldHeader, .foundation-web.alt .checkbox-list .checked {
+    color: #fff; }
+  .foundation-web.alt .modal-content h6 {
+    color: #404040; }
+  .foundation-web.alt .postal-code-lookup h6 {
+    color: #414042; }
+  .foundation-web.alt a:hover {
+    color: #eee; }
+  .foundation-web.alt .error input, .foundation-web.alt input.error {
+    background-color: #FFF; }
+  .foundation-web.alt .error small, .foundation-web.alt small.error {
+    background-color: #A91419;
+    color: #FFF; }
+  .foundation-web.alt small.error.category {
+    background-color: transparent;
+    margin-top: -1em; }
+  .foundation-web.alt .pickup-delivery-arrow {
+    background: transparent;
+    opacity: .5; }
+  .foundation-web.alt .stepone-ltl {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    padding-top: .5em; }
+  .foundation-web.alt .freight-items .freight-item, .foundation-web.alt .get-quotes, .foundation-web.alt .stepone-category-select, .foundation-web.alt .shipment-items-section {
+    border-color: rgba(0, 0, 0, 0.3); }
+  .foundation-web.alt .modalpanel {
+    background-image: url("../../../../images/icons/info-blue-gray-12x12.png"); }
+  .foundation-web.alt .checkbox-list .checked .indicator {
+    background-color: #fff; }
+  .foundation-web.alt .checkbox.checked .indicator:before {
+    color: #357017; }
+  .foundation-web.alt .postal-code-close {
+    color: #404040; }
+  .foundation-web.alt .rebate-landing .rebate-link {
+    font-weight: bold;
+    text-decoration: underline; }
+  .foundation-web.alt .divider {
+    display: none; }
+
+@media only screen and (max-width: 768px) {
+  .foundation-web.alt {
+    background-color: rgba(0, 0, 0, 0.7); }
+    .foundation-web.alt .pickup-delivery-arrow {
+      background: transparent;
+      opacity: .7; }
+    .foundation-web.alt .freight-item .remove-freight-item {
+      color: rgba(255, 255, 255, 0.7); } }

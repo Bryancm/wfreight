@@ -1,0 +1,139 @@
+.siteFeatures.foundation-web {
+  padding-bottom: 25px;
+  margin-bottom: 0;
+  border-bottom: 1px solid #DBDBDB; }
+  @media only screen and (max-width: 767px) {
+    .siteFeatures.foundation-web {
+      padding-top: 20px;
+      padding-bottom: 0;
+      border-bottom: none; } }
+  .siteFeatures.foundation-web p, .siteFeatures.foundation-web a, .siteFeatures.foundation-web span {
+    font-size: 12px; }
+  @media only screen and (max-width: 767px) {
+    .siteFeatures.foundation-web .siteFeatures-item {
+      margin-bottom: 40px; } }
+  .siteFeatures.foundation-web .siteFeatures-item-title {
+    margin-top: 0;
+    margin-bottom: 7px;
+    color: #414042;
+    font-size: 20px; }
+    .siteFeatures.foundation-web .siteFeatures-item-title a {
+      color: #414042;
+      font-size: 20px; }
+  .siteFeatures.foundation-web .siteFeatures-item-desc {
+    margin-bottom: 0;
+    min-height: 50px;
+    color: #414042;
+    font-weight: bold; }
+    @media only screen and (max-width: 767px) {
+      .siteFeatures.foundation-web .siteFeatures-item-desc {
+        min-height: 100%; } }
+  .siteFeatures.foundation-web .siteFeatures-item-link {
+    display: block; }
+  .siteFeatures.foundation-web .siteFeatures-item-image {
+    margin: 0 auto 10px;
+    height: 115px;
+    background-size: contain !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important; }
+  .siteFeatures.foundation-web .siteFeatures-item-image.image-broker {
+    background: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_broker.png"); }
+  .siteFeatures.foundation-web .siteFeatures-item-image.image-carrier {
+    background: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_carrier.png"); }
+  .siteFeatures.foundation-web .siteFeatures-item-image.image-mobile {
+    background: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_mobile.png"); }
+  .siteFeatures.foundation-web .siteFeatures-item-image.image-shipper {
+    background: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_shipper.png"); }
+  .siteFeatures.foundation-web .siteFeatures-item-image.image-green {
+    background: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_green.png"); }
+  .siteFeatures.foundation-web .siteFeatures-item-image.image-pro {
+    background: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_pro.png"); }
+  .siteFeatures.foundation-web .siteFeatures-item-link {
+    display: block; }
+  .siteFeatures.foundation-web .siteFeatures-item-learnmore {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 2px;
+    font-weight: bold; }
+    .siteFeatures.foundation-web .siteFeatures-item-learnmore:hover {
+      text-decoration: underline; }
+  .siteFeatures.foundation-web .siteFeatures-item-list {
+    text-align: left; }
+    @media only screen and (max-width: 767px) {
+      .siteFeatures.foundation-web .siteFeatures-item-list {
+        text-align: center; } }
+  .siteFeatures.foundation-web .siteFeatures-item-list-link {
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: bold; }
+    .siteFeatures.foundation-web .siteFeatures-item-list-link:hover {
+      text-decoration: underline; }
+
+.locale-es-AR .siteFeatures-item-image.image-shippingwars {
+  background: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_mx_shippingwars.png"); }
+
+.locale-es-CL .siteFeatures-item-image.image-shippingwars {
+  background-image: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_mx_shippingwars.png"); }
+
+.locale-es-CO .siteFeatures-item-image.image-shippingwars {
+  background-image: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_mx_shippingwars.png"); }
+
+.locale-es-ES .siteFeatures-item-image.image-shippingwars {
+  background-image: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_es_shippingwars.png"); }
+
+.locale-es-MX .siteFeatures-item-image.image-shippingwars {
+  background-image: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_mx_shippingwars.png"); }
+
+.locale-es-PE .siteFeatures-item-image.image-shippingwars {
+  background-image: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_mx_shippingwars.png"); }
+
+.locale-es-VE .siteFeatures-item-image.image-shippingwars {
+  background-image: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_mx_shippingwars.png"); }
+
+.locale-pt-BR .siteFeatures-item-image.image-shippingwars {
+  background-image: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_br_shippingwars.png"); }
+
+.locale-de-DE .siteFeatures-item-image.image-shippingwars {
+  background-image: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_de_shippingwars.png"); }
+
+.locale-en-GB .siteFeatures-item-image.image-shippingwars {
+  background-image: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_gb_shippingwars.png"); }
+
+.locale-af-ZA .siteFeatures-item-image.image-shippingwars {
+  background-image: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_za_shippingwars.png"); }
+
+.locale-en-ZA .siteFeatures-item-image.image-shippingwars {
+  background-image: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_za_shippingwars.png"); }
+
+.locale-nso-ZA .siteFeatures-item-image.image-shippingwars {
+  background-image: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_za_shippingwars.png"); }
+
+.locale-tn-ZA .siteFeatures-item-image.image-shippingwars {
+  background-image: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_za_shippingwars.png"); }
+
+.locale-xh-ZA .siteFeatures-item-image.image-shippingwars {
+  background-image: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_za_shippingwars.png"); }
+
+.locale-zu-ZA .siteFeatures-item-image.image-shippingwars {
+  background-image: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_za_shippingwars.png"); }
+
+.locale-nl-NL .siteFeatures-item-image.image-shippingwars {
+  background-image: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_gb_shippingwars.png"); }
+
+.locale-de-DE .siteFeatures-item-image.image-partners {
+  background-image: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_de_partner_ebaymascustrademachines.png"); }
+
+.locale-es-ES .siteFeatures-item-image.image-partners {
+  background-image: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_es_partner.png"); }
+
+.locale-es-MX .siteFeatures-item-image.image-partners {
+  background-image: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_es_partner.png"); }
+
+.locale-fr-FR .siteFeatures-item-image.image-partners {
+  background-image: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_fr_partner.png"); }
+
+.locale-nl-NL .siteFeatures-item-image.image-partners {
+  background-image: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_nl_partner.png"); }
+
+.locale-en-GB .siteFeatures-item-image.image-partners {
+  background-image: url("http://s.ushipcdn.com/public/images/promo/newhomepage/user_images/usericon_uk_partner.png"); }

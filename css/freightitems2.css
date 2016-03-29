@@ -1,0 +1,80 @@
+.foundation-web .shipment-items-section {
+  border-bottom: 1px solid #E5E5E5;
+  margin-bottom: 1em; }
+
+.freight-items .freight-item {
+  border-bottom: 1px solid #E5E5E5;
+  position: relative;
+  margin-bottom: 1em; }
+
+.freight-item .checkbox-list.basic-inline {
+  margin-bottom: .5em; }
+
+.freight-item .remove-freight-item {
+  font-size: 90%;
+  text-align: right;
+  margin-bottom: 1em;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 0.53); }
+
+.freight-item .remove-freight-item:hover {
+  color: #942024;
+  cursor: pointer; }
+
+.foundation-web .freight-dimensions input {
+  border-right: none;
+  border-radius: 0; }
+
+.foundation-web .freight-dimensions .columns:last-child input {
+  border-right: 1px solid #E5E5E5; }
+
+.freight-item .checkbox-list .columns > div {
+  float: right; }
+
+.freight-item .total-weight-row {
+  margin-top: 2px; }
+
+.freight-item .total-weight {
+  float: right; }
+
+/* Custom dropdowns as postfixes 
+form.custom .foundation-web .dim-custom-dropdown {
+    float: left !important;
+}
+form.custom .foundation-web .weight-custom-dropdown {
+    float: left !important;
+    margin-left: -1px !important;
+}
+form.custom .foundation-web .dim-custom-dropdown .custom.dropdown .current {
+    overflow: visible !important;
+    margin-left: .5em !important;
+    text-align: center;
+}
+form.custom .foundation-web .dim-custom-dropdown .custom.dropdown .selector:after {
+    left: 2em !important;
+}
+form.custom .foundation-web .weight-custom-dropdown .custom.dropdown .current {
+    overflow: visible !important;
+    margin-left: 0 !important;
+    padding-left: .6em !important;
+    text-align: center;
+}
+form.custom .foundation-web .weight-custom-dropdown .custom.dropdown .selector:after {
+    left: 2.4em !important;
+}
+form.custom .foundation-web .freight-item-weight .weight {
+    border-radius: 0;
+}
+ /Custom Dropdowns as postfixes */
+/*Custom dropdown small style*/
+form.custom .foundation-web .small-dropdown .custom.dropdown {
+  height: 2.5em;
+  margin-bottom: 0; }
+
+form.custom .foundation-web .small-dropdown .custom.dropdown .current {
+  line-height: 2.5em; }
+
+form.custom .foundation-web .small-dropdown .custom.dropdown .selector {
+  height: 2.5em; }
+
+/*end Custom dropdown small style*/

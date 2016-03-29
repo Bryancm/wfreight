@@ -1,0 +1,326 @@
+.adjacent.north {
+  border-top-right-radius: 0 !important;
+  border-top-left-radius: 0 !important; }
+
+.adjacent.north:not(.with-border):not(.with-top-border) {
+  border-top-width: 0 !important; }
+
+.adjacent.east {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important; }
+
+.adjacent.east:not(.with-border):not(.with-right-border) {
+  border-right-width: 0 !important; }
+
+.adjacent.south {
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important; }
+
+.adjacent.south:not(.with-border):not(.with-bottom-border) {
+  border-bottom-width: 0 !important; }
+
+.adjacent.west {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important; }
+
+.adjacent.west:not(.with-border):not(.with-left-border) {
+  border-left-width: 0 !important; }
+
+.transition-slide--base {
+  height: auto;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s cubic-bezier(0, 1, 0.5, 1); }
+
+.transition-slide-template--base {
+  height: auto;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s cubic-bezier(0.15, 0.85, 0.6, 1); }
+
+.transition-slide--after-toggled--tiny {
+  max-height: 75px;
+  transition-duration: 0.5s; }
+
+.transition-slide--after-toggled--small {
+  max-height: 200px; }
+
+.transition-slide--after-toggled--medium {
+  max-height: 500px; }
+
+.transition-slide--after-toggled--large {
+  max-height: 1000px; }
+
+.transition-slide--after-toggled--xlarge {
+  max-height: 3000px;
+  transition-duration: 6s; }
+
+.ie8 .steponeform {
+  min-width: 700px; }
+
+.foundation-web.steponeform {
+  border-radius: 2px;
+  margin-top: 1.25em;
+  padding: 1em;
+  border: 1px solid #E5E5E5; }
+
+.foundation-web.steponeform input {
+  text-transform: capitalize; }
+
+.foundation-web.steponeform-modal {
+  padding: 1em; }
+  .foundation-web.steponeform-modal .no-modal {
+    display: none; }
+  .foundation-web.steponeform-modal .divider {
+    display: none; }
+
+.foundation-web .row .location-row {
+  padding: 10px; }
+
+.foundation-web .additional-services-toggle {
+  cursor: pointer;
+  line-height: 12px;
+  font-weight: bold;
+  background: transparent url("../../../../images/icons/arrow_blue_right_12x12.png") no-repeat left top;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  font-size: 1em;
+  zoom: 1;
+  text-rendering: optimizeLegibility;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em; }
+
+.additional-services-toggle.additional-services-open {
+  background: transparent url("../../../../images/icons/arrow_blue_down_12x12.png") no-repeat left top; }
+
+.panel-section.easy-relist-header {
+  background-color: #f5f5f5;
+  padding: 5px 20px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #404040; }
+
+.panel-section.previous-shipment {
+  padding: 20px 20px 0;
+  color: #404040; }
+
+.foundation-web h3.panel-title {
+  padding: 10px 20px;
+  font-size: 18px; }
+
+.foundation-web button.small.previous-shipment-select {
+  padding-left: 2em;
+  padding-right: 2em; }
+
+.foundation-web .modal-mobile .page-header {
+  width: 100%;
+  min-width: 20em;
+  background-color: #eeeeee;
+  color: #404040;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: #e5e5e5;
+  padding: 0px 10px;
+  height: 45px; }
+
+.small-12.columns.previous-shipment-summary {
+  line-height: 1.4em;
+  padding-bottom: 20px;
+  color: #404040; }
+
+.previous-shipment .shipment-header {
+  font-weight: bold;
+  padding-bottom: 5px; }
+
+.previous-shipment .shipment-subheader.location:before {
+  content: '\68';
+  font-family: 'uship-icons';
+  font-weight: normal; }
+
+.previous-shipment .shipment-subheader.location.pickup:before {
+  color: #357017; }
+
+.previous-shipment .shipment-subheader.location.delivery:before {
+  color: #a91419; }
+
+.previous-shipment .shipment-subheader {
+  font-size: 12px;
+  padding-bottom: 20px; }
+
+.field-tip {
+  margin-top: -12px;
+  display: block;
+  margin-bottom: 1.25em;
+  padding: 0 0.25em; }
+
+.pickadate__holder {
+  font-size: 18px;
+  line-height: 1.8em; }
+
+.foundation-web .modal-content {
+  margin: 10px;
+  min-height: 100px;
+  min-width: 280px;
+  font-weight: normal;
+  color: #404040; }
+
+.foundation-web .boldHeader {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  color: #404040;
+  text-rendering: optimizeLegibility;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em;
+  line-height: 1.4;
+  font-size: 1em; }
+
+.postal-code-lookup {
+  background-color: #FFFFFF;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 1px 1px 5px #333333;
+  position: absolute;
+  top: 77px;
+  z-index: 10;
+  left: 1em;
+  right: 1em; }
+
+.postal-code-close {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: .8em; }
+
+.pickup-delivery-arrow {
+  position: absolute;
+  top: .8em;
+  right: -29px;
+  background-color: #fff; }
+
+.foundation-web span.postfix {
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+  border-left: 1px solid #CCC;
+  right: 2px;
+  color: #888; }
+
+.foundation-web .checkbox-list.basic-inline label {
+  padding-left: 0; }
+
+.foundation-web .get-quotes {
+  padding-top: 1em;
+  border-top: 1px solid #E5E5E5; }
+
+.foundation-web .get-quotes .button.large {
+  margin-bottom: 0; }
+
+.foundation-web .modal-content p {
+  font-size: 95%; }
+
+.foundation-web .rebate-landing {
+  padding-top: 1.5em;
+  margin-top: 5px;
+  font-size: 13px; }
+
+form.custom .foundation-web .disable-ymm .custom.dropdown {
+  opacity: .5;
+  pointer-events: none; }
+
+form.custom .foundation-web .disable-ymm .custom.dropdown ul {
+  display: none; }
+
+form.custom .foundation-web .disable-ymm .custom.dropdown a {
+  cursor: default; }
+
+/*this is the error message appended to hidden html select which will show up on mobile.
+we dont want this to show up at all, since we have manually set up error messages on the form*/
+.foundation-web .stepone-category-select select + small.error {
+  display: none; }
+
+button.secondary {
+  -webkit-filter: none;
+          filter: none;
+  background-image: none; }
+
+button.secondary:hover {
+  -webkit-filter: none;
+          filter: none;
+  background-image: none; }
+
+.button-group .secondary {
+  -webkit-filter: none;
+          filter: none;
+  background-image: none; }
+
+.foundation-web button,
+.foundation-web .button {
+  background-image: none; }
+
+form.custom .foundation-web .custom.dropdown .current.error {
+  background: #fcfcfc; }
+
+.transition-slide--active {
+  overflow: visible; }
+
+.location-type-modal {
+  position: absolute;
+  left: 340px;
+  top: -5px;
+  z-index: 201;
+  background-color: #fff;
+  border: 1px solid #c1c1c1;
+  border-radius: 7px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+  cursor: auto;
+  transition: all 0.5s;
+  visibility: hidden;
+  opacity: 0; }
+  .location-type-modal.show {
+    visibility: visible;
+    opacity: 1; }
+
+.easyRelist .modal-desktop {
+  width: 50%;
+  margin: 0 -25%; }
+
+@media only screen and (min-width: 768px) {
+  /*these numbers come right between large-8 and large-9, and design wants this exact width*/
+  .steponeform {
+    min-width: 675px; }
+  .postal-code-lookup.delivery {
+    left: 2.5em;
+    right: 1.9em; }
+  .postal-code-lookup.pickup {
+    left: 1.8em;
+    right: 2.6em; }
+  .foundation-web .stepone-locations .row .columns.stepone-location:last-child {
+    padding-left: 1.5em; }
+  .foundation-web .stepone-locations .row .columns.stepone-location:first-child {
+    padding-right: 1.5em; }
+  .pickadate__holder {
+    top: 35px; }
+  .button.large {
+    min-width: 300px; } }
+
+@media only screen and (max-width: 767px) {
+  .foundation-web .stepone-user-form {
+    margin: 0;
+    border: none; }
+  .foundation-web .modalpanel {
+    position: static; }
+  .foundation-web .modalpanel-container {
+    min-width: 300px;
+    left: 0;
+    right: 0; }
+  img.pickup-delivery-arrow {
+    display: none; }
+  .delivery-services .modalpanel-container,
+  .additional-services .modalpanel-container {
+    bottom: 0; }
+  .foundation-web .rebate-landing {
+    padding-top: 1em;
+    text-align: center; }
+  .button.large {
+    width: 100%; }
+  .location-type-modal {
+    display: none; } }

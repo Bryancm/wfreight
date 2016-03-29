@@ -1,0 +1,673 @@
+h1, h2, h3, h4  
+{
+    font-weight: bold;
+}
+
+
+/*below bd, and hd overwrite the Css to make this page spread to 100% on browser*/
+#bd
+{
+    width: 100%; 
+    padding: 0; 
+}
+
+#hd
+{
+    margin-bottom: 0 !important;
+}
+
+.siteSpecificLinks
+{
+    width: 990px;
+    margin: 0 auto;
+}
+.siteSpecificLinks .siteLink
+{
+    float: left;
+    width: 55px;
+}
+
+.home-adrotator
+{
+    background-color: #F1F2F2;
+    border-radius: 10px 10px 10px 10px;
+    height: 385px;
+    padding: 10px;
+    color: #404040;
+    margin-right: 15px;
+    position: relative;
+}
+.shipment-shipped
+{
+    background-image: url("/public/images/promo/newhomepage/shipped_banner.png");
+    background-repeat: no-repeat;
+    height: 119px;
+    position: absolute;
+    width: 119px;
+}
+.section-socialmedia
+{
+    padding-top:10px;
+}
+.socialmedia-btn 
+{
+    margin-right: 5px;
+    height: 24px;
+	/*overflow: hidden;*/
+}
+.home-wrapper
+{
+    background-color: #ffffff;
+    color: #414042;
+    margin-bottom: 30px;
+}
+
+
+.home-header
+{
+    /*background-image: url('/public/images/promo/newhomepage/bg-texture.png');*/
+    background-image: url('/public/images/promo/newhomepage/blue_bg.jpg');
+    background-repeat: repeat;/*temporary until i get the image*/
+    color: #F1F2F2;
+	border-bottom: 1px solid #FFF;
+	 height: 500px;
+}
+.home-header-hack
+{
+    /*background-image: url('/public/images/promo/newhomepage/bg-texture.png');*/
+    background-image: url('/public/images/promo/newhomepage/blue_bg.jpg');
+    background-repeat: repeat;/*temporary until i get the image*/
+    color: #F1F2F2;
+	border-bottom: 1px solid #FFF;
+	padding-bottom:20px;
+}
+
+.home-header-shipanything
+{
+    padding: 5px 0 0 15px;
+}
+.home-content
+{
+    margin: 0 auto;
+    width: 960px;
+}
+.home-content-top-bar
+{
+    padding-top: 25px;
+}
+.home-content h1{
+	font-size: 44px;
+	line-height:50px;
+	margin-bottom:10px;
+}
+.home-section
+{
+ 	padding-bottom:20px;
+}
+.home-section-border
+{
+  border-bottom: 1px solid #FCFCFC;
+}
+.home-section-lower-border
+{
+  border-bottom: 1px solid #FCFCFC;
+  padding-bottom: 25px;
+}
+.home-section-no-border
+{
+    margin-top: 30px;
+}
+.home-section-tabs
+{
+  border-bottom: 1px solid #DBDBDB;
+  height: 33px;
+ 	padding-bottom: 0px;
+}
+.home-wrapper h2
+{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.home-wrapper h3
+{
+    font-size: 14px;
+}
+.home-wrapper-location, .home-wrapper-tsp, .home-wrapper-rating
+{
+	font-size: 14px;
+	font-weight: bold;
+    margin-bottom: 10px;
+}
+.home-section-title
+{
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.home-section h3, .home-section h4, .home-section-subtitle
+{
+	font-size: 14px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.home-header-shipanything .shipanything-section
+{
+	margin-bottom:10px;
+}
+
+.home-header-shipanything .links{
+	font-weight:bold;
+	text-align:center;
+	color:#F2F2F2;
+}
+
+.links a{
+	color:#F2F2F2;
+	text-decoration:underline;
+}
+
+.shipanything-getquotes
+{
+    cursor: pointer;
+    text-align:center;
+    margin-bottom:5px;
+}
+
+.home-category-ul
+{
+    background-color: #F1F2F2;
+    border-radius: 0 0 5px 5px;
+    color: #404040;
+    font-weight: normal;
+    border-left: 1px solid #E3E3E3;
+    border-right: 1px solid #E3E3E3;
+    border-bottom: 1px solid #E3E3E3;
+    position: absolute;
+    width: 99.6%;
+    z-index: 999999 !important;
+    max-height: 285px; /*we want to show test cutoff*/
+    overflow:auto;
+}
+
+.home-category-ul li
+{
+    font-size: 17px;
+    padding: 5px 10px 5px 10px;
+    cursor:pointer;
+}
+.ie7 .home-category-ul li
+{
+    font-size: 16px;
+}
+.home-category-ul li:hover
+{
+    background-color: #5B8FB5;
+    color: #F2F2F2 !important;
+}
+
+.home-ziplookup {
+  position: relative; 
+  top: 3px;
+}
+
+.shipment-price
+{
+    background-image: url("/public/images/promo/newhomepage/pricetag.png");
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    height: 23px;
+    margin-bottom: 5px;
+    padding: 5px 0 0 43px;
+    text-align: left;
+}
+.shipment-location
+{
+    background-repeat: no-repeat;
+    height: 20px;
+    margin: 5px 0 0 10px;
+}
+.shipment-origin
+{
+    background-image: url('/public/images/promo/newhomepage/pinpoints/origin.png');
+    padding-left: 20px;
+}
+.shipment-destination
+{
+    background-image: url('/public/images/promo/newhomepage/pinpoints/destination.png');
+    padding-left: 20px;
+}
+.shipment-link
+{
+    text-align: right;
+}
+
+.shipment-link a
+{
+    font-size: 11px;
+    color: #0000FF;
+}
+.home-adrotator-dots
+{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.home-adrotator-dots .home-adrotator-dot
+{
+    background-image: url("/public/images/promo/newhomepage/dots/dot_gray.png");
+    float: left;
+    height: 9px;
+    margin-right: 1px;
+    width: 9px;
+}
+.home-adrotator-dots .home-adrotator-dot-selected
+{
+    background-image: url('/public/images/promo/newhomepage/dots/dot_blue.png');
+}
+/*The shipments*/
+.shipment-main-image
+{
+    width: 443px;
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+}
+.shipment-icon-image
+{
+    width: 87px;
+    height: 80px;
+    background-repeat: no-repeat;
+}
+.adrotator-caterpillar .shipment-main-image
+{
+    background-image: url('/public/images/promo/newhomepage/shipment/caterpillar/main_image.jpg');
+}
+.adrotator-caterpillar .shipment-icon-image
+{
+    background-image: url('/public/images/promo/newhomepage/shipment/caterpillar/icon_image.jpg');
+}
+.adrotator-boats .shipment-main-image
+{
+    background-image: url('/public/images/promo/newhomepage/shipment/boat/main_image.jpg');
+}
+.adrotator-boats .shipment-icon-image
+{
+    background-image: url('/public/images/promo/newhomepage/shipment/boat/icon_image.jpg');
+}
+.adrotator-scooter .shipment-main-image
+{
+    background-image: url('/public/images/promo/newhomepage/shipment/scooter/main_image.jpg');
+}
+.adrotator-scooter .shipment-icon-image
+{
+    background-image: url('/public/images/promo/newhomepage/shipment/scooter/icon_image.jpg');
+}
+
+.adrotator-chairs .shipment-main-image
+{
+    background-image: url('/public/images/promo/newhomepage/shipment/chairs/main_image.jpg');
+}
+.adrotator-chairs .shipment-icon-image
+{
+    background-image: url('/public/images/promo/newhomepage/shipment/chairs/icon_image.jpg');
+}
+.adrotator-roulette .shipment-main-image
+{
+    background-image: url('/public/images/promo/newhomepage/shipment/roulette/main_image.jpg');
+}
+.adrotator-roulette .shipment-icon-image
+{
+    background-image: url('/public/images/promo/newhomepage/shipment/roulette/icon_image.jpg');
+}
+
+.adrotator-airstream .shipment-main-image
+{
+    background-image: url('/public/images/promo/newhomepage/shipment/airstream/main_image.jpg');
+}
+.adrotator-airstream .shipment-icon-image
+{
+    background-image: url('/public/images/promo/newhomepage/shipment/airstream/icon_image.jpg');
+}
+
+
+.adrotator-cruiser .shipment-main-image
+{
+    background-image: url('/public/images/promo/newhomepage/shipment/cruiser/main_image.jpg');
+}
+.adrotator-cruiser .shipment-icon-image
+{
+    background-image: url('/public/images/promo/newhomepage/shipment/cruiser/icon_image.jpg');
+}
+.js-shipment
+{
+    position: absolute;
+}
+.home-howuship
+{
+	padding-bottom: 10px;
+}
+.home-featuredin
+{
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.categories-shipping-links
+{
+  min-height: 155px;
+}
+  .ie7 .categories-shipping-links
+   {
+    min-height: 170px;
+  }
+  .locale-de-DE .categories-shipping-links
+   {
+    min-height: 225px;
+  }
+    .ie7 .locale-de-DE .categories-shipping-links
+       {
+      min-height: 236px;
+    }
+  .locale-en-CA .categories-shipping-links
+   {
+    min-height: 225px;
+  }
+    .ie7 .locale-en-CA .categories-shipping-links
+       {
+      min-height: 236px;
+    }
+  .locale-en-GB .categories-shipping-links
+   {
+    min-height: 240px;
+  }
+    .ie7 .locale-en-GB .categories-shipping-links
+       {
+      min-height: 253px;
+    }
+  .locale-es-ES .categories-shipping-links
+   {
+    min-height: 225px;
+  }
+    .ie7 .locale-es-ES .categories-shipping-links
+       {
+      min-height: 236px;
+    }
+  .locale-fr-FR .categories-shipping-links
+   {
+    min-height: 225px;
+  }
+    .ie7 .locale-fr-FR .categories-shipping-links
+       {
+      min-height: 236px;
+    }
+.categories-shipping-links a
+{
+  color: #404040;
+}
+.categories-shipping-content a
+{
+  color: #507C9E;
+  font-weight: bold;
+}
+.ie7 .shipment-info
+{
+    width: 265px;
+}
+
+.home-rotator-wrapper{
+	position:relative;
+}
+.fancy_dd {
+	background-repeat: no-repeat;
+    height: 35px;
+   padding: 0 0 0 5px;
+    cursor: pointer;
+    font-size: 17px;
+}
+/*.fancy_dd .fancy_dd_right {
+    background-position: 100% 50%;
+    padding-right: 30px;
+    background-repeat: no-repeat;
+}*/
+.fancy_dd .fancy_dd_right {
+    background-position: 100%;
+    padding-right: 30px;
+    background-repeat: no-repeat;
+}
+/*.fancy_dd .fancy_dd_inner {
+    background-repeat: repeat-x;
+    height: 25px;
+    padding-top: 10px;
+}*/
+.fancy_dd .fancy_dd_inner {
+    background-repeat: repeat-x;
+    height: 35px;
+    line-height: 35px;
+    overflow:hidden;
+}
+.fancy_dd_active {
+  background-image: url("/public/images/elements/fancydd/active/dd_left_gray.png");
+  -moz-box-shadow: 0px 1px 3px rgba(0,0,0,.35);
+  -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,.35);
+  box-shadow: 0px 1px 3px rgba(0,0,0,.35);
+}
+.fancy_dd_active .fancy_dd_right {
+	background-image: url("/public/images/elements/fancydd/active/dd_right_gray.png");
+}
+.fancy_dd_active .fancy_dd_inner {
+	background-image: url("/public/images/elements/fancydd/active/dd_middle_gray.png");
+	color: #404040;
+}
+.fancy_dd_inactive {
+    background-image: url("/public/images/elements/fancydd/inactive/dd_left_gray.png");
+}
+.fancy_dd_inactive .fancy_dd_right {
+	background-image: url("/public/images/elements/fancydd/inactive/dd_right_gray.png");
+}
+.fancy_dd_inactive .fancy_dd_inner {
+	background-image: url("/public/images/elements/fancydd/inactive/dd_middle_gray.png");
+	color:#6395b0;
+}
+
+.fancy_ymm{
+	margin-right:5px;
+}
+.home-vehicle-attribute{
+    font-size:13px;
+    font-weight:bold;
+    float:left;
+}
+.fancy_txt {
+	background-repeat: no-repeat;
+    height: 35px;
+   padding: 0 0 0 5px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.fancy_txt input{
+	background-color: Transparent;
+    border-style: none;
+    font-size: 17px;
+    height: 33px; /*30px;
+    padding-left: 5px;*/
+    width:100%;
+}
+.ie7 .fancy_txt input
+{
+    padding-top: 5px;
+    font-size: 16px;
+}
+.fancy_txt .defaulttext
+{
+    color: #8C8C8C !important;
+}
+.fancy_txt .fancy_txt_right {
+    background-position: 100% 50%;
+    padding-right: 5px;
+    background-repeat: no-repeat;
+}
+.fancy_txt .fancy_txt_inner {
+    background-repeat: repeat-x;
+    height: 35px;
+}
+.ie7 .home-category-zipcode input
+{
+    padding-top: 5px;
+    font-size: 16px;
+}
+.fancy_txt_active {
+    background-image: url("/public/images/elements/fancytextbox/txt_left.png");
+}
+.fancy_txt_active .fancy_txt_right {
+	background-image: url("/public/images/elements/fancytextbox/txt_right.png");
+}
+.fancy_txt_active .fancy_txt_inner {
+	background-image: url("/public/images/elements/fancytextbox/txt_middle.png");
+	color: #404040;
+}
+
+.homepage_center
+{
+    padding-left:81px;
+}
+
+.homepage_link_center
+{
+    padding-left:199px;
+    padding-top:3px;
+}
+.homepage-phone {
+    /*float: right;*/
+    text-align: right;
+    font-size: 10px;
+    color: #d3e7ef;
+    font-weight: bold;
+    padding: 0px 0px 10px 0;
+}
+
+.homepage-button-pointer
+{
+    cursor:pointer;
+}
+
+/* Shipping Wars interstitial (facebook: Like uShip) */
+.litebox {
+    opacity: 0.7;
+    -moz-opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+.inpagepopup {
+    background: none;
+    border: none;
+    margin-top: 130px;
+    padding: 0;
+    width: 393px;
+}
+.inpagepopup-title {
+    border: none;
+    padding: 0;
+}
+.inpagepopup-title a.close {
+    background: url('/sticky/public/images/promo/newhomepage/fb_interstitial/close.png');
+    color: transparent;
+    height: 30px;
+    padding: 0;
+    right: -15px;
+    top: -15px;
+    width: 30px;
+}
+.fbpopup {
+    background: #fff;
+    overflow: hidden;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.fbpopup-tagline {
+    font-size: 17px;
+    padding: 10px 20px;
+}
+.fbpopup-likeline {
+    background: url('/sticky/public/images/promo/newhomepage/fb_interstitial/arrow.png') no-repeat 23px 3px;
+    height: 30px;
+    padding: 10px 20px 20px 75px;
+}
+.fbpopup-footer {
+    height: 51px;
+    padding-top: 10px;
+    position: relative;
+}
+.fbpopup-footer-inner {
+    border-top: 1px solid #ccc;
+    background: #eee;
+    font-weight: bold;
+    height: 36px;
+    padding: 7px 7px 7px 132px;
+    border-bottom-left-radius: 5px;
+    -moz-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -moz-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+}
+.fbpopup-learnmore {
+    display: block;
+}
+.fbpopup-footer-img {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.inpagepopup-actions {
+    display: none;
+}
+/* end Shipping Wars interstitial */
+
+/*Now what - WFT*/
+
+
+.users-review-left {
+    background: url('http://static1.uship.com/images/landingpages/ppc/firebird.jpg') no-repeat top left;
+    padding-left: 155px;
+    height: 110px;
+}
+
+.users-review-right {
+    background: url('http://static1.uship.com/images/landingpages/ppc/jeep.jpg') no-repeat top left;
+    padding-left: 155px;
+    height: 110px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

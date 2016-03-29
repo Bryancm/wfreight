@@ -1,0 +1,57 @@
+
+.foundation-web.image-header {
+  background-image: url("/public/images/responsive/desktop/road.jpg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  padding-bottom: 1.25em; 
+  width: 100%;
+  min-height: 360px;
+  padding:40px 0;
+}
+.ie8 .foundation-web.image-header:before{ 
+  height:100%;
+  display: block;
+}
+.ie8 .foundation-web.image-header {
+  background:none;
+}
+.ie8 .foundation-web.image-header .heading{
+  position: relative;
+}
+
+.image-header .heading {
+  font-weight: normal;
+  text-shadow: #333 1px 1px 5px; 
+  color: #fff;
+  margin-bottom:0;
+}
+
+.foundation-web h4 {
+  padding-bottom:20px;
+}
+
+.foundation-web .stepone-container{
+  padding:0 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .foundation-web.image-header {
+    background-image: url("/public/images/responsive/tablet/road.jpg");
+  }
+  .foundation-web .stepone-container{
+    padding:0 10px;
+  }
+}
+
+#ContentBody_ImageHeader_RequestInfoButton{
+  margin-left: 833px;
+  margin-top: -30px;
+}
+
+
+
+
+
+
+

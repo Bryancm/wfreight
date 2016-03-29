@@ -1,0 +1,124 @@
+/* Shipping Wars Banner */
+.swbanner {
+  height: 60px;
+  margin-bottom: 0px;
+  background: #333333; }
+
+.swbanner-inner {
+  position: relative;
+  width: 960px;
+  height: 60px;
+  margin: 0 auto;
+  background: url("../../../../images/banners/shippingwars/sw-banner-20150805.jpg") no-repeat; }
+
+a.swbanner-ushiplink-left {
+  height: 60px;
+  position: absolute;
+  width: 385px;
+  margin-left: -100px; }
+
+a.swbanner-aelink-center {
+  height: 60px;
+  left: 285px;
+  position: absolute;
+  width: 575px; }
+
+a.swbanner-ushiplink-right {
+  height: 60px;
+  position: absolute;
+  right: 0;
+  width: 100px; }
+
+.swbannerLatinAmerica {
+  height: 60px;
+  margin-bottom: 0px;
+  background: url("../../../../images/banners/shippingwars/swbannerLatinAmerica-bg2.png") repeat-x; }
+
+.swbannerLatinAmerica-inner {
+  position: relative;
+  width: 960px;
+  height: 60px;
+  margin: 0 auto;
+  background: url("../../../../images/banners/shippingwars/ShippingWars_Banner_MX.png") no-repeat; }
+
+a.swbannerLatinAmerica-ushiplink-left {
+  height: 100px;
+  position: absolute;
+  width: 885px; }
+
+a.swbannerLatinAmerica-ushiplink-right {
+  height: 60px;
+  position: absolute;
+  right: 0;
+  width: 75px; }
+
+/* Brazil Shipping Wars Banner */
+.locale-pt-BR .swbannerLatinAmerica {
+  height: 60px;
+  margin-bottom: 0px;
+  background: url("../../../../images/banners/shippingwars/swbannerLatinAmerica-bg2.png") repeat-x; }
+
+.locale-pt-BR .swbannerLatinAmerica-inner {
+  position: relative;
+  width: 960px;
+  height: 60px;
+  margin: 0 auto;
+  background: url("../../../../images/banners/shippingwars/ShippingWars_Banner_BR.png") no-repeat; }
+
+.locale-pt-BR a.swbannerLatinAmerica-ushiplink-left {
+  height: 100px;
+  position: absolute;
+  width: 885px; }
+
+.locale-pt-BR a.swbannerLatinAmerica-ushiplink-right {
+  height: 60px;
+  position: absolute;
+  right: 0;
+  width: 75px; }
+
+/* UK Shipping Wars Banner */
+.swbannerUK {
+  height: 60px;
+  margin-bottom: 0px;
+  background-color: #000; }
+
+.swbannerUK-inner {
+  position: relative;
+  width: 960px;
+  height: 60px;
+  margin: 0 auto;
+  background: url("../../../../images/banners/shippingwars/swbanner-uk-2.jpg") no-repeat; }
+
+.swbannerUK-inner a {
+  display: block;
+  width: 960px;
+  height: 60px;
+  margin: 0 auto; }
+
+/* FedEx Partnership Announcement Banner */
+.fedex-banner {
+  width: 100%;
+  height: 60px;
+  background-image: url("../../../../images/banners/fedex/fedex-banner.jpg");
+  background-position: center top;
+  background-color: #fff;
+  background-repeat: no-repeat; }
+
+.fedex-banner a {
+  display: block;
+  width: 100%;
+  height: 60px; }
+
+/* Freight Deals Banner */
+.freight-deals-banner {
+  width: 100%;
+  height: 60px;
+  background-image: url("../../../../images/banners/freight-deals/freight-deals-banner.jpg");
+  background-position: center top;
+  background-color: #37698c;
+  background-repeat: no-repeat; }
+
+.freight-deals-banner a {
+  display: block;
+  width: 100%;
+  height: 60px; }

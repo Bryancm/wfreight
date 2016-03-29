@@ -1,0 +1,156 @@
+.responsive-page #hd {
+  margin-bottom: 0; }
+
+@media only screen and (max-width: 860px) {
+  .hd-navigation-menus-outer {
+    display: none; } }
+
+#ft {
+  min-height: 100%; }
+
+.responsive-page #bd {
+  max-width: 100%; }
+
+@media only screen and (max-width: 1010px) {
+  .siteSpecificLinks {
+    display: none; } }
+
+@media only screen and (max-width: 990px) {
+  .home-section-tabs,
+  .tabContent.tabContent-recentShipments {
+    display: none; } }
+
+@media only screen and (max-width: 990px) {
+  #ContentBody_ctlTabLinks_divCityLinks,
+  #ContentBody_ctlTabLinks_divStateLinks,
+  #ContentBody_ctlTabLinks_divMoreLinks {
+    display: block !important; } }
+
+.home-content {
+  width: 100%;
+  max-width: 960px; }
+
+.home-header {
+  margin-bottom: 20px; }
+
+form .vortalContentWrapper .foundation-web {
+  margin-bottom: 0; }
+
+.vortalContentWrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -moz-box-orient: vertical;
+  -webkit-box-orient: vertical;
+  -webkit-flex-flow: column;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  /* Flex zone. Rearrange sections on mobile */ }
+  .vortalContentWrapper .row {
+    max-width: 980px; }
+  @media only screen and (max-width: 767px) {
+    .vortalContentWrapper .contentOrder-1 {
+      -webkit-order: 3;
+      -ms-flex-order: 3;
+      order: 3; }
+    .vortalContentWrapper .contentOrder-2 {
+      -webkit-order: 2;
+      -ms-flex-order: 2;
+      order: 2; }
+    .vortalContentWrapper .contentOrder-3 {
+      -webkit-order: 1;
+      -ms-flex-order: 1;
+      order: 1; }
+    .vortalContentWrapper .contentOrder-4 {
+      -webkit-order: 4;
+      -ms-flex-order: 4;
+      order: 4; } }
+
+.siteTransport.foundation-web {
+  padding-top: 20px;
+  padding-bottom: 40px; }
+  @media only screen and (max-width: 767px) {
+    .siteTransport.foundation-web {
+      padding-top: 0;
+      padding-bottom: 0; } }
+  .siteTransport.foundation-web p, .siteTransport.foundation-web a, .siteTransport.foundation-web span {
+    font-size: 12px; }
+  .siteTransport.foundation-web .siteTransport-instruction-head {
+    font-size: 20px;
+    margin-bottom: 15px; }
+  .siteTransport.foundation-web .siteTransport-instruction a:hover {
+    text-decoration: underline; }
+  .siteTransport.foundation-web .siteTransport-instruction-guarantee {
+    margin-top: 20px; }
+  .siteTransport.foundation-web .siteTransport-instruction-text {
+    margin-top: 30px; }
+  .siteTransport.foundation-web .siteTransport-instruction-guarantee-strong {
+    text-transform: uppercase;
+    font-weight: bold; }
+
+/* ie8 fixes */
+.ie8 .vortalContentWrapper .row .row {
+  margin: auto; }
+
+/* Clean up lortal responsive design */
+@media only screen and (max-width: 767px) {
+  .fancy_txt,
+  .fancy_txt_right {
+    padding: 0 !important; } }
+
+@media only screen and (max-width: 767px) {
+  .lortal-header-wrapper {
+    margin-bottom: 20px; } }
+
+.lortal-header {
+  max-width: 980px;
+  width: 100% !important; }
+  @media only screen and (max-width: 767px) {
+    .lortal-header {
+      margin-top: 0; } }
+
+@media only screen and (max-width: 767px) {
+  .lortal-header-comsel h1 {
+    font-size: 2.5em; } }
+
+@media only screen and (max-width: 980px) {
+  .lortal-header-comsel {
+    width: 100%;
+    float: none; } }
+
+@media only screen and (max-width: 980px) {
+  .lortal-header-rates {
+    width: 100%;
+    float: none; } }
+
+@media only screen and (max-width: 980px) {
+  .lortal-altimage {
+    text-align: center; } }
+
+@media only screen and (max-width: 980px) {
+  .comsel-wrapper {
+    width: 100%; } }
+
+@media only screen and (max-width: 980px) {
+  #ContentBody_comsel_subCategoryWrapperOut {
+    width: 100% !important; } }
+
+@media screen and (max-width: 980px) {
+  .lortal-header-rates-inner {
+    padding-left: 10px;
+    padding-right: 10px; } }
+
+@media screen and (max-width: 767px) {
+  .lortal-header-comsel-button .button-large {
+    width: inherit !important; } }
+
+@media screen and (max-width: 767px) {
+  .responsive-page .comsel-wrapper input[type="radio"],
+  .responsive-page .comsel-wrapper input[type="checkbox"] {
+    display: block; } }
+
+@media screen and (max-width: 767px) {
+  #ContentBody_comsel_stdCommodityExtraFields .layout-unit {
+    width: 100%; } }

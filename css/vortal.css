@@ -1,0 +1,99 @@
+.home-header {
+  background-image: url('/public/images/promo/newhomepage/bg_gray_40x500.jpg') !important;
+}
+
+.vortal-section
+{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.vortal-section-border
+{
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.vortal-marketing-section
+{
+    margin-left:15px;
+}
+
+.vortal-marketing-headline 
+{
+    font-size:20px; 
+    font-weight:bold; 
+    margin-bottom: 15px;
+}
+
+.vortal-ship-guarantee
+{
+    margin-top:20px;
+    height:100px;
+}
+
+.vortal-ship-guarentee-content
+{
+    padding-left: 10px;
+    width:230px;
+    vertical-align:middle;
+}
+
+.vortal-ship-guarentee-guarentee
+{
+    text-transform:uppercase;
+    font-weight:bold;   
+}
+
+.vortal-huntergreen .ltl-freight-listingproc .h-solid, .ltl-freight-type-of-quotes .h-solid 
+{
+    background-color: #D9ECF3;
+    color:#555054;
+    margin-bottom: 10px;
+    width: 100%;
+    margin-left: -10px;
+}
+
+.vortal-huntergreen .ltl-freight-listingproc .bab-box, .ltl-freight-type-of-quotes .bab-box
+{
+    border-color: #D9ECF3;
+}
+
+.vortal-huntergreen .vortal-header-container .vortal-header-container-listingproc .vortal-header-container-listingproc-h 
+{
+    color: #FDE03D;
+}
+
+.vortal-ltl-logos 
+{
+    padding:20px 0 0 15px;
+}
+
+.vortal-ltl-arrow
+{
+    padding:50px 0 0 95px;
+}
+
+.vortal-ltl-header
+{
+    margin-bottom:15px; 
+    line-height:27px; 
+    padding-top:20px;
+}
+
+.vortal-get-quotes-button
+{
+    margin-bottom:15px;
+}
+
+.ltl-section-border {
+    border-bottom: 1px solid #FFFFFF;
+    margin-top: 30px;
+}
+
+/* Hide Commodity Selector */
+.hideSelector {
+    padding-top: 80px;
+}
+.hideSelector .bigUpSelector {
+    display:none;
+}
